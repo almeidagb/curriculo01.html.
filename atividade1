@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculo3</title>
+</head>
+<body>
+    <style> /*  indica que vai receber estili*/
+        * {
+            margin: 0;
+            padding: 0;
+          }
+   main   {
+            padding:20px;
+          }
+     h3   {  
+            padding: 1px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 50px;
+          }
+        li  {padding-left: px;
+                margin: 5px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            } 
+         h1 { 
+              padding: 5px;
+              padding-left: 10px;
+              margin: 10px;
+              font-family:Arial, Helvetica, sans-serif ;
+              font-weight: 50px;
+            }
+    header  {   margin-bottom: 10px;
+                background-color: rgb(48, 181, 233);
+                padding: 10px;
+
+                
+            }
+         ul {  
+                list-style-type: none;
+            }
+    section {
+                padding: 5px;
+            }
+          p {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding:10px ;
+                margin: 0px ;
+            }
+    </style>
+</head> <!-- indica toda parte nao vista na pagina-->
+<body>
+    <header> 
+    <h1>GENIVALDO SOARES WOLVERINE</h1>
+    </header>
+    <main> <!--indica o codigo principal--> 
+    <section class="Dados-Pessoais">
+      <header>  <h3>Dados Pessoais</h3> </header>
+    <ul>
+        <li>Email: genivaldosoares30@gmail.com</li>
+        <li>Telefone: (24) 3456-5555</li>
+        <li>linkedin: https//ssjakmlkknkdnf/.dsgd</li>
+    </ul> 
+    </section>
+    <section class=" objetivo proficional">
+     <header> <h3>Objetivo Profissional</h3> </header>
+    <ul>
+        <li>Busco vaga destinada ao cargo desevolvedor senior em JAVA na empresa djdhj.</li>
+        <li>tenho disponibilidade para trabalho remoto.</li>
+    </ul>
+    </section>
+    <section class="Formacao academica">
+     <header> <h3>Formação Acadêmica</h3> </header>
+    <ul>
+        <li>bacharelado em ciencia da computação em havard    ano de inicio: 2005</li>
+        <p>ano de conclusão:2010</p>
+    </section>
+    <section class="Cursos adicionnais">
+       <header> <h3>Cursos Adicionais </h3> </header>
+    <ul>
+        <li>curso em video devs</li>
+        <li>analista de banco de Dados-Pessoais</li>
+    </ul>
+    </section> 
+    <section class="Experienncia profissional">
+     <header>   <h3>Experiência Profissional</h3> </header>
+        <ul>
+            <li>xxxxxxxxxxx xxxxxx xxxxxx xxx</li>
+            <li>xxxxxxxxxxxx xxxxx xxxxxxx xxxxx</li>
+        </ul>
+    
+    </section>
+</main>
+</body>
+</html>
+  
+</body>
+</html>
