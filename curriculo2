@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>curriculo2</title>
+    </head>
+    <body> 
+        <style>
+            :root { 
+              --color1: rgb(224, 101, 121) ;
+            }
+           *{
+            margin: 0;
+            padding: 0;
+            }
+           main{
+            padding:20px;
+            }
+         h3 {  
+            padding: 5px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 70px;
+           }
+         li{  padding-left: 0px;
+              margin: 5px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              margin-right: 10px;
+            } 
+         h1 {
+              padding: 20px; /* aba de preenchimento */
+              margin-bottom: -20px;
+              margin-top: -100vh;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+              font-weight: 50px; 
+              color: var(--color1);
+            }
+          ul{
+                list-style-type: none;
+            }
+    section {   font-size: 18px;
+                padding: 5px 0px;
+                word-spacing: 5px;
+            }
+          p {
+                padding:10px ;
+                margin: 0px ;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }               
+ .rectangle { 
+                margin-left: 1000px;
+                height: 100vh;
+                width: 200px;
+                background-color: var(--color1);
+            }      
+           img {
+                width: 150px;
+                border-radius: 300px;
+                padding-left: 20px;
+                height: 150px;
+                margin-left: 900px;
+                margin-bottom: -160px;
+           } 
+    </style>
+</head> <!-- indica toda parte nao vista na pagina-->
+<body>
+    <img src="img/hellokiti.png" alt="imagem da hello kit"></img src>
+    <div class="rectangle"></div> <!--retangulo vertical-->
+  <header>  <h1>HELLO KIT ALMEIDA</h1> </header>
+    <main> <!--indica o codigo principal--> 
+    <section class="Dados-Pessoais">
+        <h3>Dados Pessoais</h3>
+    <ul>
+        <li>Email: xxxxxxxxxx@gmail.com</li>
+        <li>Telefone: (00) 0000-0000</li>
+        <li>linkedin: xxxxxxxxxx</li>
+    </ul> 
+    </section>
+    <section class=" objetivo proficional">
+     <h3>Objetivo Profissional</h3>
+    <ul>
+        <li>xxxxx xxxx xxxxx xxxxxx xxxxxx xxxxxxx x</li>
+    </ul>
+    </section>
+    <section class="Formacao academica">
+     <h3>Formação Acadêmica</h3>
+    <ul>
+        <li>xxxxxxx xxxxxxx xxxxxx    ano de inicio:</li>
+        <p>ano de conclusão:</p>
+    </section>
+    <section class="Cursos adicionnais">
+        <h3>Cursos Adicionais </h3>
+    <ul>
+        <li>xxxxxxx xxxx xxxx</li>
+        <li>xxxxxxx xxxx xxxx</li>
+    </ul>
+    </section> 
+    <section class="Experienncia profissional">
+        <h3>Experiência Profissional</h3>
+        <ul>
+            <li>xxxxxxxxxxx xxxxxx xxxxxx xxx</li>
+            <li>xxxxxxxxxxxx xxxxx xxxxxxx xxxxx</li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>
