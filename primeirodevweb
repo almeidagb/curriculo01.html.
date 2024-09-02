@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculo1</title>
+    <link rel=" curriculo1.hmtl" href="curriculo1.css">
+    <style> /*  indica que vai receber estili*/
+        * {
+            margin: 0;
+            padding: 0;
+          }
+   main   {
+            padding:20px;
+          }
+     h3   {  
+            padding: 1px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 50px;
+          }
+        li  {padding-left: px;
+                margin: 5px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            } 
+         h1 {
+              padding: 5px;
+              margin: 1px;
+              font-family:Arial, Helvetica, sans-serif ;
+              font-weight: 50px;
+            }
+    header  {
+                background-color: rgb(180, 180, 180);
+                padding: 10px;
+            }
+         ul {  
+                list-style-type: none;
+            }
+            section{
+                padding: 5px;
+            }
+          p {
+                padding:10px ;
+                margin: 0px ;
+            }
+    </style>
+</head> <!-- indica toda parte nao vista na pagina-->
+<body>
+    <header> 
+    <h1>NOME</h1>
+    </header>
+    <main> <!--indica o codigo principal--> 
+    <section class="Dados-Pessoais">
+        <h3>Dados Pessoais</h3>
+    <ul>
+        <li>Email: xxxxxxxxxx@gmail.com</li>
+        <li>Telefone: (00) 0000-0000</li>
+        <li>linkedin: xxxxxxxxxx</li>
+    </ul> 
+    </section>
+    <section class=" objetivo proficional">
+     <h3>Objetivo Profissional</h3>
+    <ul>
+        <li>xxxxx xxxx xxxxx xxxxxx xxxxxx xxxxxxx x</li>
+    </ul>
+    </section>
+    <section class="Formacao academica">
+     <h3>Formação Acadêmica</h3>
+    <ul>
+        <li>xxxxxxx xxxxxxx xxxxxx    ano de inicio:</li>
+        <p>ano de conclusão:</p>
+    </section>
+    <section class="Cursos adicionnais">
+        <h3>Cursos Adicionais </h3>
+    <ul>
+        <li>xxxxxxx xxxx xxxx</li>
+        <li>xxxxxxx xxxx xxxx</li>
+    </ul>
+    </section> 
+    <section class="Experienncia profissional">
+        <h3>Experiência Profissional</h3>
+        <ul>
+            <li>xxxxxxxxxxx xxxxxx xxxxxx xxx</li>
+            <li>xxxxxxxxxxxx xxxxx xxxxxxx xxxxx</li>
+        </ul>
+    
+    </section>
+</main>
+</body>
+</html>
